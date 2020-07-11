@@ -1,0 +1,43 @@
+$color_primary: #434343;
+$color_secondary: #000000; 
+$color_third: #fff;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+body {
+    background: $color_secondary;
+    color: $color_third;
+}
+
+.nav {
+    background-color: $color_primary;
+    color: $color_third;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 1rem;
+    list-style: none;
+}
+
+.nav__link {
+    color: $color_third;
+    text-decoration: none;
+}
